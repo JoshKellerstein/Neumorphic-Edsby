@@ -1,4 +1,4 @@
-# Visually-Palettable-Edsby
+# Visually Palettable Edsby
 
 A CSS theme for Edsby which looks pretty good.
 
