@@ -29,6 +29,10 @@ html{
   color: white !important;
 }
 
+.CartridgeView-master > div{
+  background-color: rgba(0,0,0,0) !important
+}
+
 .xds-container:not(.xds-container-transparent){
 border-radius: 20px;
 background: #4a4a4a;
@@ -137,12 +141,39 @@ box-shadow:  5px 5px 10px #404040,
 }
 
 .CalendarPanel-default{
-          border-radius: 20px;
+          border-radius: 20px !important;
 background: linear-gradient(145deg, #434343, #4f4f4f) !important;
 box-shadow:  5px 5px 10px #404040,
              -5px -5px 10px #545454;
     margin: 20px !important;
   padding: 10px !important;
+}
+
+.xds-CalendarPanel-task{
+  border-radius: 20px !important;
+background: linear-gradient(145deg, #434343, #4f4f4f) !important;
+box-shadow:  5px 5px 10px #404040,
+             -5px -5px 10px #545454;
+    margin: 20px !important;
+  padding: 10px !important;
+}
+
+.xds-noContent{
+            border-radius: 20px !important;
+background: linear-gradient(145deg, #434343, #4f4f4f) !important;
+box-shadow:  5px 5px 10px #404040,
+             -5px -5px 10px #545454;
+    margin: 20px !important;
+  padding: 10px !important;
+}
+
+.libraryItem-folder{
+              border-radius: 20px !important;
+background: linear-gradient(145deg, #434343, #4f4f4f) !important;
+box-shadow:  5px 5px 10px #404040,
+             -5px -5px 10px #545454;
+    margin: 10px !important;
+  padding: 5px !important;
 }
 }
 
