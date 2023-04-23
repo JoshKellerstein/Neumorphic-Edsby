@@ -29,6 +29,10 @@ html{
   color: white !important;
 }
 
+.htmlprint-pageinner{
+  background-color: gray !important;
+}
+
 .CartridgeView-master > div{
   background-color: rgba(0,0,0,0) !important
 }
