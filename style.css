@@ -112,14 +112,31 @@ box-shadow:  10px 10px 20px #404040,
   color: white;
 }
 
-.FeedItemComponent {
+.FeedItemComponent:not(.thread) {
     border-radius: 20px !important;
-background: linear-gradient(145deg, #434343, #4f4f4f) !important;
+background: linear-gradient(145deg, #434343, #4f4f4f) ;
 box-shadow:  10px 10px 20px #404040,
              -10px -10px 20px #545454;
-  margin: 30px !important;
-  padding: 20px !important;
+  margin: 30px ;
+  padding: 20px ;
+  border: none !important;
 }
+
+
+.thread.FeedItemComponent {
+  background: linear-gradient(145deg, #353434, #3f3e3e) !important ;
+  margin: 50px !important;
+  padding: 10px !important;
+}
+
+.thread.FeedItemComponent::before {
+  display: none !important;
+}
+
+
+
+
+
 
 .scrollingNews-boxLayout-newsbox-item{
       border-radius: 20px;
@@ -255,6 +272,7 @@ box-shadow:  5px 5px 10px #404040,
     margin: 10px !important;
   padding: 10px !important;
 }
+
 
 
 
