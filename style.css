@@ -20,12 +20,10 @@ font-family: 'Cabin', sans-serif;
 
 html{
   background-color: #4a4a4a !important;
-  color: white !important;
 }
 
 
-
-*{
+h1, h2, a, p,button, div:not(.xds-CalendarPanel-types-bubble),.xds-fa-glyph:not(.xds-CalendarPanel-types-bubble),.fa-graduation-cap ,.xds-polls-types-simplePollActionTitle, .FIBAssessment-type-glyph-icon_graduation_cap-icon{
   color: white !important;
 }
 
@@ -46,6 +44,35 @@ box-shadow: inset 10px 10px 20px #404040,
   
   
 }
+
+.xds-button{
+    border-radius: 10px;
+background: linear-gradient(145deg, #196ac2, #1559a3) !important;
+box-shadow:  5px 5px 10px #404040,
+             -5px -5px 10px #545454;
+  padding: 5px !important;
+  border: none !important;
+  color: white !important;
+}
+
+.xds-default-button{
+    border-radius: 5px;
+background: linear-gradient(145deg, #196ac2, #1559a3) !important;
+box-shadow:  2px 2px 4px #404040,
+             -2px -2px 4px #545454;
+  padding: 6px !important;
+  border: none !important;
+  color: white !important;
+}
+
+.xds-button:hover,.xds-default-button:hover{
+
+background: linear-gradient(145deg, #3483d7, #2c6eb5) !important;
+
+
+}
+
+
 
 body{
   background: #4a4a4a !important;
@@ -153,6 +180,21 @@ box-shadow:  5px 5px 10px #404040,
   padding: 10px !important;
 }
 
+.xds-MyWorkAssessments-assessment{
+            border-radius: 10px !important;
+background: linear-gradient(145deg, #434343, #4f4f4f) !important;
+box-shadow:  5px 5px 10px #404040,
+             -5px -5px 10px #545454;
+    margin: 20px !important;
+  padding: 10px !important;
+  border: none !important;
+}
+
+.MyWorkAssessmentComponent-details-sep{
+  color: white !important;
+  border-color: #434343 !important;
+}
+
 .xds-CalendarPanel-task{
   border-radius: 20px !important;
 background: linear-gradient(145deg, #434343, #4f4f4f) !important;
@@ -161,6 +203,30 @@ box-shadow:  5px 5px 10px #404040,
     margin: 20px !important;
   padding: 10px !important;
 }
+
+.xds-attachmentList-group-file{
+    border-radius: 20px !important;
+background: linear-gradient(145deg, #434343, #4f4f4f) !important;
+box-shadow:  5px 5px 10px #404040,
+             -5px -5px 10px #545454;
+    margin: 20px !important;
+  padding: 10px !important;
+}
+
+.xds-wysiwyg-bookmarkInit{
+  border: none !important;
+  background-color: rgba(0,0,0,0) !important;
+}
+
+.attachmentList-files-file-bookmark-EmbedRender-link-link{
+
+background: linear-gradient(145deg, #434343, #4f4f4f) !important;
+
+  padding: 10px !important;
+}
+
+
+
 
 .xds-noContent{
             border-radius: 20px !important;
@@ -179,6 +245,18 @@ box-shadow:  5px 5px 10px #404040,
     margin: 10px !important;
   padding: 5px !important;
 }
+
+.xds-compoundFileThumbnail-smartThumb{
+              border-radius: 20px !important;
+  border: none !important;
+background: linear-gradient(145deg, #434343, #4f4f4f) !important;
+box-shadow:  5px 5px 10px #404040,
+             -5px -5px 10px #545454;
+    margin: 10px !important;
+  padding: 10px !important;
+}
+
+
 
 }
 
