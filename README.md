@@ -1,4 +1,4 @@
-# Visually Palatable Edsby
+# Neumorphic Edsby
 
 A CSS theme for Edsby which looks pretty good.
 
