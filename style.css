@@ -1,3 +1,5 @@
+@-moz-document domain(edsby.com) {
+
 @font-face {
   font-family: 'Cabin';
   font-style: normal;
@@ -38,6 +40,7 @@ border-radius: 20px;
 background: #4a4a4a;
 box-shadow: inset 10px 10px 20px #404040,
             inset -10px -10px 20px #545454;
+  border: none !important;
  
   
   
@@ -84,7 +87,7 @@ p{
   color: white !important;
 }
 
-.ClassList-classesContainer-classes-class-current{
+.ClassList-classesContainer-classes-class-current, .xds-ClassList-link{
   border-radius: 20px;
 background: linear-gradient(145deg, #434343, #4f4f4f) !important;
 box-shadow:  10px 10px 20px #404040,
@@ -210,6 +213,10 @@ box-shadow:  5px 5px 10px #404040,
   border-color: #434343 !important;
 }
 
+.xds-ClassList-link{
+  border: none !important;
+}
+
 .xds-CalendarPanel-task{
   border-radius: 20px !important;
 background: linear-gradient(145deg, #434343, #4f4f4f) !important;
@@ -252,13 +259,14 @@ box-shadow:  5px 5px 10px #404040,
   padding: 10px !important;
 }
 
-.libraryItem-folder{
+.libraryItem-folder, .libraryItem-legacyFile{
               border-radius: 20px !important;
 background: linear-gradient(145deg, #434343, #4f4f4f) !important;
 box-shadow:  5px 5px 10px #404040,
              -5px -5px 10px #545454;
     margin: 10px !important;
   padding: 5px !important;
+  border: none !important;
 }
 
 .xds-compoundFileThumbnail-smartThumb{
@@ -270,3 +278,25 @@ box-shadow:  5px 5px 10px #404040,
     margin: 10px !important;
   padding: 10px !important;
 }
+
+
+.xdl-link,.FeedItemComponent-itembody-content-header-details-title-name-place,.xds-name{
+  color: #5e9cff  !important;
+}
+
+.FeedItemComponent-itembody-content-header-details-title-name-place,.xds-name{
+  font-weight: 900;
+  font-size: 16px;
+}
+
+.ClassList-classesContainer-classes-recenttitle{
+  background-color: rgba(0,0,0,0) !important;
+  margin-left: 5px !important;
+}
+
+
+
+
+
+}
+
